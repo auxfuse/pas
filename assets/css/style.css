@@ -1,0 +1,72 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ececec;
+    color: #131313;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-section {
+    flex: 1;
+}
+
+#content-row {
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Utility classes */
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Navbar */
+
+.navbar {
+    min-height: 10vh;
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+/* Footer */
+
+footer {
+    min-height: 10vh;
+}
+
+#additional-links {
+
+}
+
+/* Home (Login) Page */
+
+.form-control {
+    width: 70%;
+    font-family: "Roboto Light", sans-serif;
+    color: #5a5656;
+    text-align: center;
+}
+
+input::placeholder {
+    font-family: "Roboto Light", sans-serif;
+}
+
+input.fas::placeholder {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    color: #5a5656;
+}
