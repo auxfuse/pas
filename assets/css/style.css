@@ -43,6 +43,11 @@ body {
     height: 70px;
 }
 
+.nav-link:after {
+    content: '';
+
+}
+
 /* Footer */
 
 footer {
