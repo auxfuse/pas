@@ -54,8 +54,8 @@ footer {
     min-height: 10vh;
 }
 
-#additional-links {
-
+.social-link {
+    list-style: none;
 }
 
 /* Home (Login) Page */
@@ -74,4 +74,28 @@ input::placeholder {
 input.fas::placeholder {
     font-family: "Font Awesome 5 Free", sans-serif;
     color: #5a5656;
+}
+
+.not-visible {
+    display: none;
+}
+
+.error {
+    color: #cb0707;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.list-item {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+.list-item:not(:last-child)::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 30%;
+    margin: 0.5rem auto;
+    background: #7e7e7e;
 }
