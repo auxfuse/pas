@@ -5,7 +5,7 @@ console.log(`The current browser name is "${browser.getBrowserName()}" & the ver
 const fm = {
     desktop: {
         safari: '>=12',
-        chrome: '>=87',
+        chrome: '>=80',
         // Old Edge HTML 18.17763 = Edge 44
         edge: '>=18',
         // New Edge
