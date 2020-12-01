@@ -3,14 +3,13 @@ const browser = bowser.getParser(window.navigator.userAgent);
 console.log(`The current browser name is "${browser.getBrowserName()}" & the version is "${browser.getBrowserVersion()}"`);
 
 const fm = {
-    desktop: {
-        'safari': '>=12',
-        'chrome': '>=80',
-        // Old Edge HTML 18.17763 = Edge 44
-        'edge': '>=20',
-        // New Edge
-        'Microsoft Edge': '>=80'
-    }
+    'safari': '>=12',
+    'chrome': '>=80',
+    // Old Edge HTML 18.17763 = Edge 44
+    'edge': '>=44',
+    // New Edge
+    'microsoft edge': '>=80',
+    'internet explorer': '>=11'
 };
 
 const platform = browser.satisfies(fm);
